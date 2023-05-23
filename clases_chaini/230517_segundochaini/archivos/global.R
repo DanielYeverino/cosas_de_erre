@@ -4,6 +4,8 @@ gc()
 Sys.setlocale(locale = "es_ES.UTF-8")
 options(scipen = 999)
 
+source("tema_chaini.R")
+
 pacman::p_load(
   sf, readxl, tidyverse
   )
@@ -88,14 +90,18 @@ gen_linea <- function(no_sel, cve_mun_sel, cve_ent_sel) {
     ) +
     geom_line() +
     geom_point() +
-    theme_bw() +
+    tema_chaini(size_var = 20) +
+    scale_x_continuous(
+      labels = unique(df_graf1$year),
+      breaks = unique(df_graf1$year)
+    ) +
     scale_y_continuous(
       labels = scales::comma_format()
     )
   
 }
 
-# gen_linea(no_sel = 196, cve_mun_sel = "17016", cve_ent_sel = "17")
+# gen_linea(no_sel = 161, cve_mun_sel = "17016", cve_ent_sel = "17")
 
 # Grafica de barras----
 
@@ -144,7 +150,7 @@ gen_barras <- function(no_sel, year_sel, cve_ent_sel) {
       ),
       y = meta_sel$umedida
     ) +
-    theme_bw()
+    tema_chaini(size_var = 20) 
   
 }
 
@@ -194,14 +200,24 @@ gen_mapa <- function(ent_sel, no_sel, year_sel) {
       )
     ) +
     geom_sf() +
-    theme_void() +
+    tema_chaini(size_var = 20) +
     theme(
-      legend.position = "bottom"
+      legend.position = "bottom",
+      plot.title = element_text(hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
+      axis.line = element_blank(),
+      axis.text.x = element_blank(),
+      axis.text.y = element_blank(),
+      axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
+      axis.ticks = element_blank(),
+      panel.grid.major = element_blank(),
+      plot.caption = element_markdown(hjust = 0)
     )
   
 }
 
-# gen_mapa(ent_sel = "22", no_sel = 1, year_sel = 2010)
+# gen_mapa(ent_sel = "22", no_sel = 10, year_sel = 2010)
 
 # Valores disponibles----
 #* Indicadores disponibles----
