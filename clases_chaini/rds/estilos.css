@@ -1,0 +1,374 @@
+/*Fuentes: */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap');
+
+.fig {
+  width:100%;
+  max-width: 600px;
+  text-align:center;
+}
+
+
+ html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Montserrat";
+}
+
+
+.content {
+  background-color:white;
+
+}
+
+.content-wrapper, .right-side {
+  background-color:white;
+}
+
+    @import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap");
+
+      .bg-dark {
+         background-color: #256370!important;
+      }
+
+      #barraInferior {
+         background-color: #272C31!important;
+      }
+
+      #footer {
+         padding-bottom: 0px;
+         margin-bottom:  0px;
+      }
+
+
+      .downbartext {
+         color:white!important;
+         padding-left: 20px;
+      }
+
+    /*
+    p {
+        margin: 0;
+        color: #000000;
+        font-size: 12pt;
+        font-family: "Montserrat";
+    }
+    */
+
+  p {
+    font-size: 17px;
+    font-family:Montserrat;
+    text-align: justify;
+    margin: 0 0 5px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+
+  .linksInicio {
+    text-align:center;
+    padding-bottom: 0px;
+    margin-bottom:  0px;
+  }
+
+  h3 {
+    color: white;
+    font-family: "Montserrat", bold;
+    font-weight: 700;
+    text-align:center;
+  }
+
+  h1 .c2 {
+    color: #619776;
+    font-family: "Montserrat", bold;
+    font-weight: 700;
+    font-size: 36px;
+    text-align:center;
+  }
+
+  h1, h2, h5 {
+    color: #619776;
+    font-family: "Montserrat", bold;
+    font-weight: 700;
+    text-align:center;
+  }
+
+  h4 {
+    color: #2b7f53;
+    font-family: "Montserrat", bold;
+    font-weight: 700;
+    text-align:center;
+  }
+
+
+
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.btn-success {
+  font-family: "Montserrat";
+  background-color: #008a00;
+  border-color: #008a00;
+  }
+
+.btn-primary {
+  font-family: "Montserrat";
+  background-color: #007fb0;
+  border-color: #007fb0;
+  }
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  text-align:center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container_1 {
+  /*padding: 2px 16px;*/
+  background-color:white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat;
+  max-width: 800pt;
+
+}
+
+.container_1_2 {
+  padding: 2px 16px;
+  background-color:white;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*SIDE: */
+
+.skin-black .main-sidebar, .skin-black .wrapper {
+    background-color: #0076B3;
+    font-size: 10pt;
+}
+
+.skin-black .treeview-menu>li>a {
+    background-color: #0076B3;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 10pt;
+}
+
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a {
+    color: #fff;
+    background: #6f97cb;
+    border-left-color: #fff;
+    font-family: "Montserrat";
+    font-size: 10pt;
+}
+
+.skin-black .sidebar a {
+    color: #beccd3;
+    font-family: "Montserrat";
+    font-size: 10pt;
+}
+
+.heroContainer {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*Cajas de Contenido: */
+.box.box-solid.box-warning>.box-header {
+    color: #008949;
+    background: #008949;
+    background-color: #008949;
+    text-align: center;
+}
+
+.box.box-solid.box-warning {
+    border: 2px solid #00A174;
+}
+
+.skin-black .treeview-menu>li.active>a, .skin-black .treeview-menu>li>a:hover {
+    background: #6f97cb;
+    border-left-color: #fff;
+    font-size: 10pt;
+}
+
+
+/*Manejo de Errores*/
+.shiny-output-error {visibility: hidden; color:white;}
+.shiny-output-error:before {visibility: hidden; color:white;}
+
+
+/*Los botones centrados: */
+.btn_izq {
+          border-bottom-left-radius: 80px 80px;
+          border-top-left-radius: 80px 80px;
+        }
+.btn_der {
+          border-bottom-right-radius: 80px 80px;
+          border-top-right-radius: 80px 80px;
+        }
+.container-table {
+            display: table;
+        }
+.vertical-center-row {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+.small-box p {
+  text-align:center;
+}
+
+.small-box h3, .small-box p {
+    z-index: 5;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.bg-red {
+    background-color: #0d2953!important; /*Verde*/
+
+}
+
+.bg-green {
+    background-color: #3274ae!important; /*Azul*/
+
+}
+
+.bg-yellow {
+    background-color: #008854!important; /*Azul*/
+}
+
+li {
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Montserrat";
+}
+
+.parrafo_s {
+  font-family:Montserrat;
+  color:black;
+}
+
+.sweet-alert p {
+  font-family:Montserrat;
+}
+
+.selectize-control {
+  font-family:Montserrat;
+}
+
+a {
+  font-family: "Montserrat";
+  color:#007fb0;
+}
+
+.shiny-options-group {
+  font-family: "Montserrat";
+}
+
+td {
+  font-family: "Montserrat";
+}
+
+th {
+  font-family: "Montserrat";
+}
+
+
+.control-label {
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+
+
+.ayuda {
+  font-family: "Montserrat";
+  font-size: 15px;
+  color:#999999;
+}
+
+.content-wrapper, .right-side {
+                                background-color: white;
+           }
+
+.sa-icon .sa-custom {
+  height: 100%;
+}
+
+hr {
+  border: 3px solid #609778;
+  border-radius: 1px;
+}
+
+#sidebarItemExpanded > ul > li.treeview.active > ul {
+  background-color: #008854!important; /*Azul*/
+}
+
+#sidebarItemExpanded > ul > li.treeview > ul {
+  background-color: #008854!important; /*Azul*/
+}
+
