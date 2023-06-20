@@ -52,3 +52,8 @@ gen_mapa <- function(alcaldia_sel){
 }
 
 
+# Construir las opciones de los controles -----
+opcion_alcaldias <- mpios$NOM_MUN %>% sort()
+
+
+
